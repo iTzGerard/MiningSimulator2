@@ -1,5 +1,5 @@
 --[[
-Add the following to the top of the loadsdtring:
+Add the following to the top of the load string:
     _G.Webhook = "https://discord.com/api/webhooks/" --Your Webhook
     _G.Discord_UserID = "" --"693238446784367857" -- ID To Ping; leave as "" to not ping
     _G.TrueChance = true -- false = 0.001%; true = 1:400k
