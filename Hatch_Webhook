@@ -1,8 +1,7 @@
 --[[
-Add the following to the top of the load string:
     _G.Webhook = "https://discord.com/api/webhooks/" --Your Webhook
-    _G.Discord_UserID = "" --"693238446784367857" -- ID To Ping; leave as "" to not ping
-    _G.TrueChance = true -- false = 0.001%; true = 1:400k
+    _G.Discord_UserID = "" -- UID To Ping; leave as "" to not ping
+    _G.TrueChance = true -- false = 0.001%; true = 1 in 400k
     _G.Tiers = { --Tiers you care about
         ['Common'] = false;
         ['Unique'] = false;
@@ -12,8 +11,11 @@ Add the following to the top of the load string:
         ['Secret'] = true;
     }
     _G.Exclusions = {
-        "Unicorn";
+        -- "Unicorn"; -- remove the "--" (uncomment) to add it to the list
+        -- "Glitch";
     }
+    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/iTzGerard/MiningSimulator2/main/Hatch_Webhook'))()
 ]]
 
 -- This file was generated using Luraph Obfuscator v13.4.6
