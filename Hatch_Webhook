@@ -18,7 +18,7 @@
     loadstring(game:HttpGet('https://raw.githubusercontent.com/iTzGerard/MiningSimulator2/main/Hatch_Webhook'))()
 ]]
 
-print("Hatch Notifier Script current broken sorry!)
+print("Hatch Notifier Script current broken sorry!")
 
 -- // Protected by luaGuard - Security Level basic
 
